@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(rm *)",
+      "PowerShell(Remove-Item *)",
+      "Bash(git push *)",
+      "PowerShell(git push *)"
+    ],
+    "disableBypassPermissionsMode": "disable"
+  }
+}
